@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #31573d;
+    font-family: 'Roboto Condensed', sans-serif;
+    margin: auto;
+}
+.container{
+    max-width: 1000px;
+    background-color: #91a09c;
+    margin: 0 auto;
+    padding: 20px;
+
+}
+
+header{
+
+}
+.profile-image{
+ width: 120px;
+ height: 110px;
+ border: 3px solid rgb(107, 54, 54);
+ border-radius: 50%;
+ float: left;
+ margin: 10px;
+ padding: 2px;
+}
+.header-bio{
+    float: left;
+    padding: 20px;
+    margin: 5px;
+}
+h1, h2, h3,h4, h5,h6{
+    color: rgb(47, 51, 51);
+}
+.header-contract{
+    float: right;
+    padding: 20px;
+    margin: 10px;
+}
+.header-contract a{
+    text-decoration: none;
+    color: rgb(7, 245, 245);
+    font-weight: bold;
+    
+}
+.header-contract a:hover{
+    color: blue;
+    background-color: aqua;
+    text-decoration: underline;
+
+}
+.div-clear{
+    clear: both;
+}
+hr{
+    border: solid black 2px;
+    margin: 20px auto;
+    width: 100%;
+    border-bottom: none;
+
+}
+#personal-section{
+
+
+}
+
+.content{
+    margin-bottom: 30px;
+
+}
+.div-left{
+    float: left;
+    width: 30%;
+
+}
+.div-right{
+    float: right;
+    width: 70%;
+    padding-bottom: 10px;
+
+}
+.common-hr{
+    border: solid black 1px;
+    margin: 10px auto;
+    border-bottom: none;
+    width: 100%;
+    
+    
+}
+
+/* Work experience section start */
+#work-section{
+
+}
+.content{
+
+}
+.div-left{
+    width: 30%;
+    float: left;
+
+}
+.div-right{
+    width: 70%;
+    float: right;
+
+}
+.common-hr{
+    border: solid black 1px;
+    margin: 10px auto;
+    border-bottom: none;
+    width: 100%;
+}
+
+
+/* education section */
+
+.education-left{
+    float: left;
+    
+}
+.education-right{
+    float: left;
+    
+}
+
+.bottom{
+    background-color: black;
+    text-align: center;
+    color: aliceblue;
+    padding: 15px;
+    margin: 0 auto;
+}
+.bottom a{
+    color: aqua;
+}
+.bottom a:hover{
+    background-color: dodgerblue;
+    text-decoration: dotted;
+}
